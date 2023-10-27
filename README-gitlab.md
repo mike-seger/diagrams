@@ -1,4 +1,9 @@
 # UML Diagrams
+
+- https://codebase.helmholtz.cloud/examples/diagrams-in-gitlab/-/tree/master/examples?ref_type=heads
+- https://codebase.helmholtz.cloud/examples/diagrams-in-gitlab/-/blob/master/examples/json.md?ref_type=heads
+
+
 The Unified Modeling Language (UML) is a general-purpose modeling language in
 the field of software engineering.
 It aims to provide a standard way to visualize the design of a system.

@@ -1,1 +1,2 @@
-![Diagram 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jonashackt/plantuml-markdown/master/diagram1.puml)
+![Diagram
+!1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mike-seger/diagrams/master/diagram1.iuml)

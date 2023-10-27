@@ -1,0 +1,47 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/ebbypeter/Archimate-PlantUML/master/Archimate.puml
+
+title Archimate Example - Context: Archimate Business Layer \n\n Create any Archimate Diagrams with simple easy to write Code \n \n Anyone can write it \n\n Draw.io and PlantUML macro plugin needed\n\n
+
+skinparam shadowing false
+
+'Elemnts'
+
+Grouping(GRP01, "Insurance"){
+
+Business_Service(BS1, "Customer service") 
+
+Business_Service(BS2, "Application ") 
+
+Business_Service(BS3, "Renewal") 
+
+Business_Service(BS4, "Claims Processing ") 
+
+Business_Service(BS5, "Appeal") 
+
+Business_Contract(BC1, "Insurance Policy") 
+
+Rel_Aggregation_Down( BS1,BS2, " aggregation of ")
+
+Rel_Aggregation_Down( BS1,BS3, " aggregation of ")
+
+Rel_Aggregation_Down( BS1,BS4, " aggregation of ")
+
+Rel_Aggregation_Down( BS1,BS5, " aggregation of ")
+
+}
+
+Grouping(GRP02, "Auto Insurance"){
+
+Business_Contract(BC2, "Drive Well and Save Agreement") 
+
+Business_Service(BS6, "Drive Well and Save") 
+
+}
+
+'Relationships'
+
+Rel_Specialization_Left(GRP02, GRP01, " kind of ")
+
+@enduml
